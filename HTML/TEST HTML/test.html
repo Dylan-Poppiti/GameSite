@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+	<meta name ="description" content ="This is a web page for nerds."/>
+	<meta name ="keywords"content = "nerd, test, garbage"/>
+	<meta http-equiv = "author" content = "Dylan Poppiti"/>
+	<meta http-equiv = "content-language" content = "en-us"/>
+	<head>
+
+	<!-- ESCAPE CHARACTERS -->
+	<!-- Space == &nbsp; -->
+	<!-- tm == &#8482; -->
+	<!-- & == &ramp; -->
+	<!-- C(copy right) == @copy; -->
+	<!-- < == &lt; -->
+	<!-- > == &gt; -->
+	<!-- ? == &#63 -->
+
+	<!-- bold text == <b>...</b>-->
+	<!-- strong text == <strong>...</strong>, same as bold but will can be used by txt to speech-->
+	<!-- italic text == <i>...</i>-->
+	<!-- em text == <em>...</em>, same as italic except can be read by txt to speech-->
+
+		<title> My Web Page </title>
+	</head>
+	<style>
+		body{
+			background-image: url("silver.jpg");
+		}
+		
+	</style>
+	<body>
+		<font color = "cyan">
+		<iframe src="index.html" 
+			style="border:0px #000000 none;" 
+			name="Senior_Project"
+			scrolling="no" 
+			frameborder="1" 
+			marginheight="px" 
+			marginwidth="420px" 
+			height="420px" 
+			width="480px">		
+		</iframe>
+		
+		<h1> THE HTML TEST SIGHT	</h1>
+		<p>  Welcome to the My Test Site nerd!	</p>
+		<br>
+		<ul>
+		 <li> <a href = "#Table"> Table Jump</a> </li>
+		 <li> <a href = "#Image"> Image Jump</a> </li>
+		 <li> <a href = "#Input"> Input Section</a></li>
+		 <li> <a href = "#DropDown"> Drop Down</a> </li>
+		 <li> <a href = "#DateStuff"> Date Stuff</a></li>
+		 <li> <a href = "#OuterLink"> Youtube link</a></li>		
+		</ul>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+		<!-- image stuff -->
+
+
+		<h3> UFO pic </h3>
+		<a name ="Image"> </a>
+		<p> <img src="Hollow Moon Sprites\UFO.png"></p>
+		<br><br>
+		<p> <img src ="ShadowBallPEE1.tif" width = "600" hight = "1200"></p>	
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		<fieldset><!-- boxes in all items in fieldset-->
+			<legend>Input Options</legend>
+			<!-- Text Input -->
+			<a name="Input"> </a>
+			<form action = "" method = "">
+				<label for ="firstname">First Name:</label>
+			</form>
+			<!-- input for single text box line -->
+			<form action = "" method = "">
+				<input type = "text" name = "" id ="firstname" size = "50"><!-- size denotes number of characters -->
+			</form>
+			<br>
+
+			<!-- textarea for multi row areas -->
+			<textarea rows="10" cols = "40"></textarea>
+			<input type ="submit" value ="Submit">
+
+			<br>
+			<!-- radio buttons -->
+			<form action = "" method = "">
+				Yes:
+				<input type = "radio" name = "yesorno" value=""></br>
+				No:
+				<input type = "radio" name = "yesorno" value="">
+			</form>
+	
+			<br>
+	
+			<!-- Check Box -->
+			<form action ="" method ="">
+				Which subjects are you intrested in?<br>
+				<input type= "checkbox" name= "" checked="checked">Nerd Stuff<br> <!-- Will start Checked -->
+				<input type= "checkbox" name ="">Football<br>
+				<input type= "checkbox" name ="">BasketBall<br>
+				<input type= "checkbox" name ="">BaseBall<br>
+				<input type= "checkbox" name ="">Hockey
+			</form>
+			
+			<br>
+
+			<!-- Number Input box/ only numbers -->
+			<form action = "" method = "">
+				<input type ="number"> <!-- can add min/max with min="" max =""-->
+			</form>
+			<!-- DropDown Menu -->
+	
+			<br>
+			<a name = "DropDown"></a>
+			<form action = "" method = "">
+				<select>
+					<option value ="POOP"> POOP</option>
+					<option value ="PEE"> PEE</option>
+					<option value ="WEE"> WEE</option>
+				</select>
+			</form>
+	
+			<br>
+			<!-- Date Stuff -->
+			<a name="DateStuff"></a>
+			<form>
+				<input type = "date" name = "day>
+				Number of days: <input type = "number" name = "numdays" min= "1" max = "10">
+			</form>
+		</fieldset>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+		<p> Table test</p>
+		<a name = "Table"></a>
+		<table>
+		<tr>
+			<th> Planets</th>
+			<th> Oceans</th>
+			<th> Deserts</th>
+		</tr>
+		<tr>
+			<td>Earth</td>
+			<td>Pacific</td>
+			<td>Sahara</td>
+		</tr>
+		
+		</table>
+		<br><br><br>
+		<!-- comments! -->
+		<h2> Bass fish stuff	</h2>
+		<p>  Only Nerds like Bass</p>
+		<br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<p> List Test</p>
+		<ul>
+			<li>Fish</li>
+			<li>Shrimp</li>
+			<li>Clams</li>
+		</ul>
+		<ol>
+			<li>Fish</li>
+			<li>Shrimp</li>
+			<li>Clams</li>
+		</ol>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<!-- FOR OUTSIDE WEB LINKS -->
+	<p>Outer Web Link Test <br>
+	<a name = "OuterLink"> </a>
+	<a href="https://www.youtube.com/channel/UCpFr7iaw_7CwlRTZZ29nRFQ?view_as=subscriber">
+	The Dman G Channel Page </a>
+	
+	</body>
+
+
+
+</html>
